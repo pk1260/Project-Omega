@@ -1,5 +1,5 @@
 # ![Project Omega Banner](https://github.com/pk1260/Project-Omega/blob/main/project-omega/public/img/Project-Omega-Banner.png "Logo")
-Eindproject van K_SEC op Mediacollege Amsterdam
+<p align="center">This will be my final exam project for K_SEC. This website is build with the Laravel framework</p>
 
 ## Project Links
 - **[Code](https://github.com/pk1260/Project-Omega/tree/main/project-omega)**
