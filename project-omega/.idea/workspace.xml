@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53a29ad8-4bcf-4d05-9fcf-c5d8db758c2d" name="Default Changelist" comment="" />
+    <list default="true" id="53a29ad8-4bcf-4d05-9fcf-c5d8db758c2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/resources/image/repository-open-graph-template_Tekengebied 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/image/Project-Omega-Banner.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,6 +146,11 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\Project-Omega\project-omega\resources\image" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -158,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605885666158</updated>
-      <workItem from="1605885667250" duration="646000" />
+      <workItem from="1605885667250" duration="1078000" />
     </task>
     <servers />
   </component>
