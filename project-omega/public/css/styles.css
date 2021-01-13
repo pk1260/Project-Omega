@@ -1,8 +1,19 @@
-/*!
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,700&display=swap);/*!
 Theme Name: Project Omega
 Author: Pascal Kuiper
 Description: Dit is een maatwerk voor Project Omega
 Version: 2.0.2
 Text Domain: ProjectOmega
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-container {
+  width: 90%;
+  margin: 0 auto;
+}
 

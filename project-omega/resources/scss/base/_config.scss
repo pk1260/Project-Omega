@@ -1,4 +1,26 @@
 //-------------------
-//  Colors
+//  Main Fonts
+//-------------------
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700&display=swap');
+
+//-------------------
+//  Main Colors
 //-------------------
 
+$main-black: #000000;
+$main-white: #ffffff;
+
+//-------------------
+//  Main Setup
+//-------------------
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-container {
+    width: 90%;
+    margin: 0 auto;
+}

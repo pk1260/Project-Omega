@@ -19384,8 +19384,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\xampp\htdocs\Project-Omega\project-omega\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\xampp\htdocs\Project-Omega\project-omega\resources\scss\styles.scss */"./resources/scss/styles.scss");
+__webpack_require__(/*! D:\XAMPP\htdocs\Project-Omega\project-omega\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\XAMPP\htdocs\Project-Omega\project-omega\resources\scss\styles.scss */"./resources/scss/styles.scss");
 
 
 /***/ })

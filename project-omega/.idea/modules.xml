@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/project-omega.iml" filepath="$PROJECT_DIR$/.idea/project-omega.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../xampp/htdocs/Project-Omega/project-omega/.idea/project-omega.iml" filepath="$PROJECT_DIR$/../../../../../xampp/htdocs/Project-Omega/project-omega/.idea/project-omega.iml" />
     </modules>
   </component>
 </project>
