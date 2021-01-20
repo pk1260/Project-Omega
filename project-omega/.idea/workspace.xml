@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53a29ad8-4bcf-4d05-9fcf-c5d8db758c2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-v2/css/styling.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-v2/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-v2/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-v2/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-v2/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/base/_navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/scss/base/_config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scss/base/_config.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +25,19 @@
         <option value="composer.json" />
         <option value="CSS File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/pk1260/Project-Omega" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
@@ -159,14 +159,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../videobox" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\htdocs\Project-Omega\project-omega\resources\views" />
+      <recent name="D:\XAMPP\htdocs\Project-Omega\project-omega\public\js" />
       <recent name="D:\xampp\htdocs\Project-Omega\project-omega\public" />
       <recent name="D:\xampp\htdocs\Project-Omega\project-omega\resources\image" />
     </key>
@@ -194,25 +196,25 @@
       <workItem from="1610542660670" duration="2244000" />
       <workItem from="1610554506711" duration="383000" />
       <workItem from="1610568470195" duration="1582000" />
-      <workItem from="1610574579572" duration="4034000" />
+      <workItem from="1610574579572" duration="4632000" />
+      <workItem from="1610582396859" duration="2057000" />
+      <workItem from="1610700922017" duration="505000" />
+      <workItem from="1610701444201" duration="32000" />
+      <workItem from="1610701482150" duration="233000" />
+      <workItem from="1610701788388" duration="696000" />
+      <workItem from="1610713067338" duration="137000" />
+      <workItem from="1610720192383" duration="1253000" />
+      <workItem from="1610726431222" duration="46000" />
+      <workItem from="1611091341106" duration="2760000" />
+      <workItem from="1611094446623" duration="11000" />
+      <workItem from="1611094506809" duration="2261000" />
+      <workItem from="1611125255645" duration="2143000" />
+      <workItem from="1611129557618" duration="5452000" />
+      <workItem from="1611167234685" duration="580000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605910549708">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.87.1920.1040@0.0.2560.1400" timestamp="1605910549708" />
-    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1606470965340">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/-1920.87.1920.1040@0.0.2560.1400" timestamp="1606470965340" />
-    <state x="987" y="433" width="585" height="534" key="find.popup" timestamp="1610575235953">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="987" y="433" width="585" height="534" key="find.popup/0.0.2560.1400/-1920.87.1920.1040@0.0.2560.1400" timestamp="1610575235953" />
   </component>
 </project>

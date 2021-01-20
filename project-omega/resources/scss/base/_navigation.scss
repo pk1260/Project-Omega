@@ -1,0 +1,121 @@
+/*TEKST SETUP*/
+h1, h2, h3, h4, h5, h6, p, a, li{
+    font-family: Roboto, sans-serif;
+}
+
+/*DESKTOP NAVIGATION SECTION*/
+li, a {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+span {
+    font-weight: 100;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    height: 8vh;
+    position: sticky;
+    top: 0;
+    transition: .3s ease;
+    background-color: #000000;
+    z-index: 1;
+    li, a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+h1:hover, span:hover {
+    color: #2ABDFF;
+    transition: all .3s ease 0s;
+}
+
+.nav__links {
+    list-style: none;
+    li {
+        display: inline-block;
+        padding: 0 20px;
+    }
+    a {
+        transition: all .3s ease 0s;
+    }
+    :hover {
+        color: #2ABDFF;
+    }
+}
+
+.menu, .close {
+    display: none;
+    cursor: pointer;
+    :hover {
+        color: #2ABDFF;
+        transition: all .3s ease 0s;
+    }
+}
+
+
+/*MOBILE NAVIGATION SECTION*/
+.overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: all .5s ease 0s;
+}
+
+.overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all .3s ease 0s;
+
+    :hover, :focus {
+        color: #2ABDFF;
+    }
+}
+
+
+.overlay .close {
+    position: absolute;
+    right: 15px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .nav__links {
+        display: none;
+    }
+    .menu {
+        display: inherit;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    h1, span{
+        font-size: 1em;
+    }
+
+    .overlay a {
+        font-size: 1em;
+    }
+}

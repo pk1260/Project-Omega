@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Fav icons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/Project-Omega-Logo-Fav-16x16.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/Project-Omega-Logo-Fav-32x32.png') }}">
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -17,15 +21,38 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
 </head>
 <body>
+
+<header id="header">
+    <a href="{{ url('/') }}"><h1>{{ config('app.name', 'Laravel') }}</h1></a>
+    <nav>
+        <ul class="nav__links">
+            <li><a href="">portfolio</a></li>
+            <li><a href="">blog</a></li>
+            @guest
+                @if (Route::has('login'))
+                    <li><a href="{{ url('/login') }}">{{ __('Login') }}</a></li>
+                @endif
+            @endguest
+        </ul>
+        <a onclick="openNav()" class="menu">menu</a>
+    </nav>
+</header>
+<div id="mobile__menu" class="overlay">
+    <a class="close" onclick="closeNav()">&times;</a>
+    <div class="overlay__content">
+        <a href="<?php echo url('/portfolio')?>">portfolio</a>
+        <a href="<?php echo url('/blog')?>">blog</a>
+        <a href="<?php echo url('/contact')?>">contact</a>
+    </div>
+</div>
+
+<div class="content-container">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -45,7 +72,7 @@
                                     <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </li>
                             @endif
-                            
+
                             @if (Route::has('register'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
@@ -79,5 +106,17 @@
             @yield('content')
         </main>
     </div>
+</div>
+
+<script type="application/javascript">
+    function openNav() {
+        document.getElementById("mobile__menu").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mobile__menu").style.width = "0%";
+    }
+
+</script>
 </body>
 </html>
