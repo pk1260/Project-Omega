@@ -22,8 +22,7 @@ Route::group(['middleware' => 'isadmin'], function() {
 });
 
 Route::group(['middleware' => 'auth'], function() {
-    Route::resource('items', 'ItemController');
+    Route::resource('videos', 'VideoController');
 });
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

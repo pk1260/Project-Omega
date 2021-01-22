@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53a29ad8-4bcf-4d05-9fcf-c5d8db758c2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/scss/base/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project-Omega-v2/resources/views/videos/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project-Omega-v2/resources/views/videos/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project-Omega-v2/resources/views/videos/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project-Omega-v2/resources/views/videos/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-Omega-v2/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Omega-v2/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-Omega-v2/app/Http/Controllers/VideoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Omega-v2/app/Http/Controllers/VideoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-Omega-v2/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Omega-v2/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-Omega-v2/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Omega-v2/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-Omega-v2/app/Models/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Omega-v2/app/Models/Video.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-Omega-v2/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Omega-v2/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-Omega-v2/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Omega-v2/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-Omega-v2/database/migrations/2021_01_20_234147_create_video_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Omega-v2/database/migrations/2021_01_20_234147_create_video_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-Omega-v2/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Omega-v2/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-Omega-v2/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Omega-v2/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-Omega-v2/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Omega-v2/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-Omega-v2/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-Omega-v2/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +168,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../videobox" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
@@ -211,6 +220,7 @@
       <workItem from="1611125255645" duration="2143000" />
       <workItem from="1611129557618" duration="5452000" />
       <workItem from="1611167234685" duration="580000" />
+      <workItem from="1611316881365" duration="65000" />
     </task>
     <servers />
   </component>

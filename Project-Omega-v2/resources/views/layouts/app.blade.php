@@ -18,6 +18,12 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <style>
+        div.hidden {
+            display: none !important;
+        }
+    </style>
 </head>
 <body>
     <div id="app">
@@ -45,7 +51,7 @@
                                     <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </li>
                             @endif
-                            
+
                             @if (Route::has('register'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
@@ -74,10 +80,10 @@
                 </div>
             </div>
         </nav>
+        <br>
 
-        <main class="py-4">
-            @yield('content')
-        </main>
+        @yield('content')
+
     </div>
 </body>
 </html>
