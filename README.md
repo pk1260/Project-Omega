@@ -2,5 +2,5 @@
 <p align="center">This will be my final exam project for K_SEC. This website is build with the web application framework Laravel</p>
 
 ## Project Links
-- **[Code](https://github.com/pk1260/Project-Omega/tree/main/project-omega)**
+- **[Code](https://github.com/pk1260/Project-Omega/tree/main/Project-Omega-v2)**
 - **[Design](https://xd.adobe.com/view/f847c655-8bdf-4bbf-9d4d-5ebc0c181332-ad14)**
